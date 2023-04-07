@@ -4,6 +4,8 @@
 
 //2. Data struktur diklasifikasikan jadi 2 : Static, & Dynamic
 
+//3. Kecepatan mesin, Compiler, Operating System, Bahasa Pemrograman, Ukuran dari Output
+
 
 
 
