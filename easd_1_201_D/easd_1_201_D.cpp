@@ -44,7 +44,7 @@ void input()                //Procedure untuk input
 }
 
 void selectionsort() {
-    for (int ml = 0; ml < n - 2; ml++) {                   //Step 1
+    for (int ml = 0; ml < n - 1; ml++) {                   //Step 1
         int min_index = ml;                              //Step 2a
         for (int i = ml + 1; i < n; i++)                 //Step 2b
         {
