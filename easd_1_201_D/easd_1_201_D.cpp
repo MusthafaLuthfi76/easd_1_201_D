@@ -8,6 +8,9 @@
 
 //4. Insertion Sort, Karena waktu terbaiknya O(n) kalau sudah hampir urut. Dan algoritma ini sederhana dan mudah diimplementasikan
 
+//5. Quadratic : Bubble Sort, Insertion Sort, Selection Sort
+//   LogLinear : Merge Sort, Quick Sort
+
 
 
 
