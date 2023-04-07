@@ -2,6 +2,8 @@
 //    Untuk mengatasi masalah yang diberikan dengan menggunakan komputer, kita perlu merancang algoritma untuk itu. algoritma memungkinkan kita 
 //    untuk merancang proses yang sistematis dan efektif untuk menyelesaikan masalah.
 
+//2. Data struktur diklasifikasikan jadi 2 : Static, & Dynamic
+
 
 
 
