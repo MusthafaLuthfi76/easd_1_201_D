@@ -76,6 +76,8 @@ void display() {                            //Procedure display
 
 int main()
 {
-    
+    input();
+    selectionsort();
+    display();
 }
 
