@@ -43,9 +43,39 @@ void input()        //Procedure untuk input
     }
 }
 
+void selectionsort() {
+    for (int j = 0; j < n - 1; j++) {
+        int min_index = j;
+        for (int i = j + 1; i < n; i++)
+        {
+            if (luthfi[i] < luthfi[min_index])
+            {
+                min_index = i;
+            }
+        }
+        if (min_index != j)
+        {
+            int temp = luthfi[j];
+            luthfi[j] = luthfi[min_index];
+            luthfi[min_index] = temp;
+        }
+    }
+}
+
+void display() {                            //Procedure display
+    cout << endl;                                           //Output baris kosong
+    cout << "====================" << endl;                 //Output ke layar
+    cout << "Element Array yang telah tersusun" << endl;    //Output ke layar
+    cout << "====================" << endl;                 //Output ke layar
+    for (int j = 0; j < n; j++) {           //Looping dengan j dimulai dari 0 hingga n-1
+        cout << luthfi[j] << endl;               //Output ke layar
+    }
+    cout << endl;                           //Output baris kosong
+}
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
