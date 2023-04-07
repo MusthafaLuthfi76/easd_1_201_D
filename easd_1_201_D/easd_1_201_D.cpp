@@ -44,16 +44,16 @@ void input()        //Procedure untuk input
 }
 
 void selectionsort() {
-    for (int j = 0; j < n - 1; j++) {
-        int min_index = j;
-        for (int i = j + 1; i < n; i++)
+    for (int j = 0; j < n - 1; j++) {                   //Step 1
+        int min_index = j;                              //Step 2a
+        for (int i = j + 1; i < n; i++)                 //Step 2b
         {
-            if (luthfi[i] < luthfi[min_index])
+            if (luthfi[i] < luthfi[min_index])          //Step 2c
             {
-                min_index = i;
+                min_index = i;                          //Step 2c.i
             }
         }
-        if (min_index != j)
+        if (min_index != j)                             //Step 3
         {
             int temp = luthfi[j];
             luthfi[j] = luthfi[min_index];
